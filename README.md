@@ -1,36 +1,32 @@
-# 🌤️ WeatherNext
+# WeatherNext - Fullstack Weather Web Application
 
-A **full-stack weather application** built with **Next.js**, **Tailwind CSS**, and **Node.js/Express**.  
-Search for weather in any city and view weather details, with preferences saved in **localStorage**.
-
----
-
-## 🚀 Demo
-
-🌐 **Frontend:** [WeatherNext Live](https://weathernext-1.onrender.com)  
-🌐 **Backend:** [API Live](https://weathernext.onrender.com)  
+A modern fullstack weather application built with **Next.js + Tailwind CSS** frontend and **Node.js (Express)** backend.  
+The app fetches and displays weather data based on the user’s **current location** and searched cities.  
 
 ---
 
-## 🛠️ Tech Stack
+### 🔹 Key Features
 
-**Frontend:**  
-- ⚛️ Next.js 15 + React 19  
-- 🎨 Tailwind CSS  
-
-**Backend:**  
-- 🟢 Node.js  
-- ⚡ Express.js  
-
----
-
-## ✨ Features
-
-- 🔎 Search weather by city name  
-- 🌡️ Display temperature, humidity, wind speed, etc.  
-- 💾 Store preferences in **localStorage**  
-- 📱 Fully responsive design with **Tailwind CSS**  
-- 🌐 Fetch weather data via backend API with **CORS support**  
+- 🌤️ **Current Weather:** Automatically detects and shows weather for the user’s location.  
+- 🔎 **City Search:** Fetch weather for any city with live API integration.  
+- 💾 **LocalStorage:** Stores user preferences and search history locally.  
+- 📱 **Responsive Design:** Works seamlessly across devices using Tailwind CSS.  
+- ⚡ **Fast & Smooth UX:** Optimized frontend with Next.js and client-side rendering.  
+- 🌐 **Deployed Online:**  
+  - Frontend: [https://weathernext-1.onrender.com](https://weathernext-1.onrender.com)  
+  - Backend: [https://weathernext.onrender.com](https://weathernext.onrender.com)  
+- 🛠️ **Tech Stack:** Next.js, Tailwind CSS, Node.js, Express, Axios  
 
 ---
 
+### 📦 Packages to Install
+
+**Frontend (`weather-frontend`)**  
+```bash
+npm install next react react-dom axios framer-motion react-icons
+npm install -D typescript @types/react @types/react-dom tailwindcss postcss autoprefixer eslint
+```
+
+**Backend (`weather-backend`)**  
+```bash
+npm install express cors axios dotenv
